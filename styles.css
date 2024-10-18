@@ -19,7 +19,7 @@ STYLE OF THE HEADER ELEMENT AND IT'S CHILDREN
     flex-direction: row;
     width: 100%;
     height: 10vh;
-   background: #e5e5e5;
+    background: #e5e5e5;
     box-sizing: border-box;
     padding: 1em;
     justify-content: space-between;
@@ -29,10 +29,10 @@ STYLE OF THE HEADER ELEMENT AND IT'S CHILDREN
     height: 10vh;
     border-radius: 50%;
 }
-.nav{
+/* .nav{
     display: flex;
     justify-items: flex-end;
-}
+} */
 .nav-link{
     margin: 10px;
     text-decoration: none;
@@ -42,7 +42,6 @@ STYLE OF THE HEADER ELEMENT AND IT'S CHILDREN
     height: 1.5rem;
     width: 5rem;
     text-align: center;
-    border-radius: 10px;
 }
 .nav-link:hover{
     color: #fca311;
@@ -149,7 +148,7 @@ STYLES TO THE REST OF THE PAGE
     text-align: center;
 }
 .about_message{
-    padding:  5em 5em;
+    padding:  3em 3em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #14213d;
     font-weight: bold;
@@ -231,6 +230,13 @@ STYLES TO THE REST OF THE PAGE
     margin: 2px;
 }
 @media (min-width: 400px) and (max-width: 700px){
+    .nav-link{
+        font-size: .6em;
+    }
+    .logo{
+        width: 10vw;
+        height: 5vh;
+    }
     .info{
         width: 100%;
     }
@@ -257,6 +263,10 @@ STYLES TO THE REST OF THE PAGE
     }
     .about{
         padding: 0;
+    }
+    .about_message{
+        padding-left: 2em;
+        padding-right: 2em;
     }
     .projects{
         margin: 0;
