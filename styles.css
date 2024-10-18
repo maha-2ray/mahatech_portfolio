@@ -190,7 +190,6 @@ STYLES TO THE REST OF THE PAGE
     background: #f1faee;
     width: 10vw;
     height: 20vh;
-    margin: 1em;
     border-radius: 10px;
     margin: 5em 2em 2em 2em;
 }
@@ -211,12 +210,13 @@ STYLES TO THE REST OF THE PAGE
 .contact_info{
     display: flex;
     flex-direction: row;
-    margin: 10px auto;
+    margin: 1em auto;
 }
 .contact_detail{
     margin: 0 5px 0 5px;
     font-family: "Anton", sans-serif;
     font-style: normal;
+    font-size: 1em;
     color: #1d3557;
 }
 .social_section, .copy_right{
@@ -229,4 +229,63 @@ STYLES TO THE REST OF THE PAGE
     width: 2vw;
     height: 3vh;
     margin: 2px;
+}
+@media (min-width: 400px) and (max-width: 700px){
+    .info{
+        width: 100%;
+    }
+    .profile_image_section{
+        width: 100%;
+        margin: 1em 0 0 0;
+    }
+    .profile{
+        width: 100vw;
+        margin: 0;
+        padding-right: 7em;
+    }
+    .home{
+        display: block;
+        width: 100%;
+
+    }
+    .greeting{
+        width: 100%;
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        height: 5em;
+    }
+    .about{
+        padding: 0;
+    }
+    .projects{
+        margin: 0;
+        padding-left: 0;
+    }
+    .project{
+        width: 90%;
+        margin: 1em;
+        height: 30vh;
+    }
+    .icon{
+        width: 15vw;
+        margin-left: 7.5em;
+    }
+    .title_space{
+        margin-left: 5vw;
+    }
+    .line{
+        width: 30vw;
+    }
+    .skill{
+        width: 30vw;
+        margin: 1em;
+        height: 17vh;
+    }
+    .contact_detail{
+        font-size: .6em;
+    }
+    .social{
+        width: 4.5vw;
+    }
 }
