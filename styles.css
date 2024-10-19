@@ -3,299 +3,305 @@
 GLOBAL STYLING
 ############################################
 */
-.container{
-    width: 100%;
-   background: #e5e5e5;
-    line-height: 1.5;
-    overflow-x: hidden;
+* {
+    scroll-behavior: smooth;
+}
+.container {
+  width: 100%;
+  background: #e5e5e5;
+  line-height: 1.5;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 /*
 ##############################################
 STYLE OF THE HEADER ELEMENT AND IT'S CHILDREN
 ##############################################
 */
-.header{
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 10vh;
-    background: #e5e5e5;
-    box-sizing: border-box;
-    padding: 1em;
-    justify-content: space-between;
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10vh;
+  background: #e5e5e5;
+  box-sizing: border-box;
+  padding: 1em;
+  justify-content: space-between;
 }
-.logo{
-    width: 5vw;
-    height: 10vh;
-    border-radius: 50%;
+.logo {
+  width: 5vw;
+  height: 10vh;
+  border-radius: 50%;
 }
 /* .nav{
     display: flex;
     justify-items: flex-end;
 } */
-.nav-link{
-    margin: 10px;
-    text-decoration: none;
-    font-family: fantasy;
-    font-style: normal;
-    color: #14213d;
-    height: 1.5rem;
-    width: 5rem;
-    text-align: center;
+.nav-link {
+  margin: 10px;
+  text-decoration: none;
+  font-family: fantasy;
+  font-style: normal;
+  color: #14213d;
+  height: 1.5rem;
+  width: 5rem;
+  text-align: center;
 }
-.nav-link:hover{
-    color: #fca311;
-    transition: all ease 1s;
+.nav-link:hover {
+  color: #fca311;
+  transition: all ease 1s;
 }
 /*
 #############################################################
 STYLE OF THE HOMEPAGE
 #############################################################
 */
-.home{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 100%;
-    box-sizing: border-box;
-   /* background: radial-gradient(circle, #fdffed, #878c8f);*/
-    padding: 2rem;
+.home {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+  /* background: radial-gradient(circle, #fdffed, #878c8f);*/
+  padding: 2rem;
 }
-.info{
-    width: 50%;
+.info {
+  width: 50%;
 }
-.greeting{
-    font-family: "Anton", sans-serif;
-    font-size: 2rem;
-    color: #14213d;
-    letter-spacing: 1px;
+.greeting {
+  font-family: "Anton", sans-serif;
+  font-size: 2rem;
+  color: #14213d;
+  letter-spacing: 1px;
 }
-.greeting_span{
-    color:  #fca311;
+.greeting_span {
+  color: #fca311;
 }
-.hire_me{
-    font-size: 16px;
-    padding: 10px 10px;
-    margin-right: 1em;
-    border-radius: 10px;
-    border-style: double;
-    border-color: #f1faee;
-    background: #fca311;
-    width: 7rem;
-    font-family: "Anton", sans-serif;
-    color: #1d3557;
+.hire_me {
+  font-size: 16px;
+  padding: 10px 10px;
+  margin-right: 1em;
+  border-radius: 10px;
+  border-style: double;
+  border-color: #f1faee;
+  background: #fca311;
+  width: 7rem;
+  font-family: "Anton", sans-serif;
+  color: #1d3557;
 }
-.hire_me:hover{
-    cursor: pointer;
-    background: #1d3557;
-    color: #f1faee;
+.hire_me:hover {
+  cursor: pointer;
+  background: #1d3557;
+  color: #f1faee;
 }
 .download-button {
-    color: #fca311;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 5px;
-    border-style: double;
-    border-color: #fca311;
-    margin-top: 4rem;
-    font-family: "Anton", sans-serif;
-    background: #14213d;
+  color: #fca311;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: #fca311;
+  margin-top: 4rem;
+  font-family: "Anton", sans-serif;
+  background: #14213d;
 }
 
 .download-button:hover {
-    background-color:  #f1faee 0.3s;    
-    transition: #1d3557 0.3s;
-
-  }
-.profile_image_section{
-    border-radius: 50%;
-    width: 30%;
-    background: #f1faee;
-    height: 50vh;
-    border-color: rgb(115, 228, 115);
-    margin: 2rem 0 0 4.5rem;
+  background-color: #f1faee 0.3s;
+  transition: #1d3557 0.3s;
 }
-.profile{
-    height: 50vh;
+.profile_image_section {
+  border-radius: 50%;
+  width: 30%;
+  background: #f1faee;
+  height: 50vh;
+  border-color: rgb(115, 228, 115);
+  margin: 2rem 0 0 4.5rem;
+}
+.profile {
+  height: 50vh;
 }
 /*
 ###########################################################
 STYLES TO THE REST OF THE PAGE
 ###########################################################
 */
-.about, .projects{
-    width: 100%;
-    letter-spacing: 1.5px;
-    padding: 0 1rem 0 1rem;
+.about,
+.projects {
+  width: 100%;
+  letter-spacing: 1.5px;
+  padding: 0 1rem 0 1rem;
 }
-.title_space{
-    margin-left: 22vw;
-    display: flex;
-    flex-direction: row;
+.title_space {
+  margin-left: 22vw;
+  display: flex;
+  flex-direction: row;
 }
-.line{
-    width: 20vw;
-    height: 1vh;
-    margin: 1.6rem 1rem 0 1rem;
-    background: linear-gradient(to right, #fca311, #14213d);
+.line {
+  width: 20vw;
+  height: 1vh;
+  margin: 1.6rem 1rem 0 1rem;
+  background: linear-gradient(to right, #fca311, #14213d);
 }
-.title{
-    font-family: "Anton", sans-serif;
-    color: linear-gradient(to left, #fca311, #14213d);
-    text-align: center;
+.title {
+  font-family: "Anton", sans-serif;
+  color: linear-gradient(to left, #fca311, #14213d);
+  text-align: center;
 }
-.about_message{
-    padding:  3em 3em;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #14213d;
-    font-weight: bold;
+.about_message {
+  padding: 3em 3em;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #14213d;
+  font-weight: bold;
 }
-.projects{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-left: 13vw;
-    margin-top: 0;
+.projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 13vw;
+  margin-top: 0;
 }
-.project{
-    background: #f1faee;
-    width: 17vw;
-    height: 40vh;
-    border-radius: 10px;
-    margin: 10em 2em 2em 2em;
-    padding: 1rem;
+.project {
+  background: #f1faee;
+  width: 17vw;
+  height: 40vh;
+  border-radius: 10px;
+  margin: 10em 2em 2em 2em;
+  padding: 1rem;
 }
-.icon{
-    width: 5vw;
-    height: 10vh;
-    margin: 0 4.5em 0 4.5em;
+.icon {
+  width: 5vw;
+  height: 10vh;
+  margin: 0 4.5em 0 4.5em;
 }
-.project_title{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 400;
+.project_title {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 400;
 }
-.skills{
-    display: flex;
-    flex-direction: row;
-    padding-left: 5vw;
-    flex-wrap: wrap;
+.skills {
+  display: flex;
+  flex-direction: row;
+  padding-left: 5vw;
+  flex-wrap: wrap;
 }
-.skill{
-    padding: 1em;
-    background: #f1faee;
+.skill {
+  padding: 1em;
+  background: #f1faee;
+  width: 10vw;
+  height: 20vh;
+  border-radius: 10px;
+  margin: 5em 2em 2em 2em;
+}
+.icon_skill {
+  width: 4rem;
+  margin-left: 2rem;
+}
+.skill_name {
+  text-align: center;
+  font-style: normal;
+  font-family: "Courier New", Courier, monospace;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact_info {
+  display: flex;
+  flex-direction: row;
+  margin: 1em auto;
+}
+.contact_detail {
+  margin: 0 5px 0 5px;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-size: 1em;
+  color: #1d3557;
+}
+.social_section,
+.copy_right {
+  margin: 5em auto;
+}
+.social_icon {
+}
+.social {
+  width: 2vw;
+  height: 3vh;
+  margin: 2px;
+}
+@media (min-width: 400px) and (max-width: 700px) {
+  .nav-link {
+    font-size: 0.6em;
+  }
+  .logo {
     width: 10vw;
-    height: 20vh;
-    border-radius: 10px;
-    margin: 5em 2em 2em 2em;
-}
-.icon_skill{
-    width: 4rem;
-    margin-left: 2rem;
-}
-.skill_name{
-    text-align: center;
-    font-style: normal;
-    font-family: 'Courier New', Courier, monospace;
-}
-.contact{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.contact_info{
-    display: flex;
-    flex-direction: row;
-    margin: 1em auto;
-}
-.contact_detail{
-    margin: 0 5px 0 5px;
-    font-family: "Anton", sans-serif;
-    font-style: normal;
-    font-size: 1em;
-    color: #1d3557;
-}
-.social_section, .copy_right{
-    margin: 5em auto;
-}
-.social_icon{
-
-}
-.social{
-    width: 2vw;
-    height: 3vh;
-    margin: 2px;
-}
-@media (min-width: 400px) and (max-width: 700px){
-    .nav-link{
-        font-size: .6em;
-    }
-    .logo{
-        width: 10vw;
-        height: 5vh;
-    }
-    .info{
-        width: 100%;
-    }
-    .profile_image_section{
-        width: 100%;
-        margin: 1em 0 0 0;
-    }
-    .profile{
-        width: 100vw;
-        margin: 0;
-        padding-right: 7em;
-    }
-    .home{
-        display: block;
-        width: 100%;
-
-    }
-    .greeting{
-        width: 100%;
-        font-size: 2em;
-        padding: 0;
-        margin: 0;
-        height: 5em;
-    }
-    .about{
-        padding: 0;
-    }
-    .about_message{
-        padding-left: 2em;
-        padding-right: 2em;
-    }
-    .projects{
-        margin: 0;
-        padding-left: 0;
-    }
-    .project{
-        width: 90%;
-        margin: 1em;
-        height: 30vh;
-    }
-    .icon{
-        width: 15vw;
-        margin-left: 7.5em;
-    }
-    .title_space{
-        margin-left: 5vw;
-    }
-    .line{
-        width: 30vw;
-    }
-    .skill{
-        width: 30vw;
-        margin: 1em;
-        height: 17vh;
-    }
-    .contact_detail{
-        font-size: .6em;
-    }
-    .social{
-        width: 4.5vw;
-    }
+    height: 5vh;
+  }
+  .info {
+    width: 100%;
+  }
+  .profile_image_section {
+    width: 100%;
+    margin: 1em 0 0 0;
+  }
+  .profile {
+    width: 100vw;
+    margin: 0;
+    padding-right: 7em;
+  }
+  .home {
+    display: block;
+    width: 100%;
+  }
+  .greeting {
+    width: 100%;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    height: 5em;
+  }
+  .about {
+    padding: 0;
+  }
+  .about_message {
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  .projects {
+    margin: 0;
+    padding-left: 0;
+  }
+  .project {
+    width: 90%;
+    margin: 1em;
+    height: 30vh;
+  }
+  .icon {
+    width: 15vw;
+    margin-left: 7.5em;
+  }
+  .title_space {
+    margin-left: 5vw;
+  }
+  .line {
+    width: 30vw;
+  }
+  .skill {
+    width: 30vw;
+    margin: 1em;
+    height: 17vh;
+  }
+  .contact_detail {
+    font-size: 0.6em;
+  }
+  .social {
+    width: 4.5vw;
+  }
+  .download-button {
+    margin-top: 7rem;
+  }
 }
