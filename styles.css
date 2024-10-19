@@ -122,6 +122,7 @@ STYLE OF THE HOMEPAGE
   margin: 2rem 0 0 4.5rem;
 }
 .profile {
+  width: 27vw;
   height: 50vh;
 }
 /*
@@ -249,7 +250,7 @@ STYLES TO THE REST OF THE PAGE
     margin: 1em 0 0 0;
   }
   .profile {
-    width: 100vw;
+    width: 75vw;
     margin: 0;
     padding-right: 7em;
   }
@@ -304,4 +305,76 @@ STYLES TO THE REST OF THE PAGE
   .download-button {
     margin-top: 7rem;
   }
+}
+@media (max-width: 399px){
+
+    .profile_image_section {
+    width: 100%;
+    margin: 4em 0 4em 0;
+    }
+    .profile {
+    width: 75vw;
+    margin: 0;
+    padding: 0;
+    }
+    .home {
+    display: block;
+    width: 100%;
+    }
+    .greeting {
+    width: 100%;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+    height: 5em;
+    }
+    .info{
+        width: 100%;
+    }
+    .download-button{
+        margin: 0 0 0 0;
+    }
+    .hire_me{
+        margin: 9rem 0 0 0;
+    }
+    .about {
+      margin-top: 7rem;
+      padding: 0;
+    }
+    .about_message {
+      padding: 0 2em 0 2em;
+    }
+    .projects {
+      margin: 0;
+      padding-left: 0;
+    }
+    .project {
+      width: 90%;
+      margin: 1em;
+      height: 30vh;
+    }
+    .icon {
+      width: 15vw;
+      margin-left: 7.5em;
+    }
+    .title_space {
+      margin-left: 5vw;
+    }
+    .line {
+      width: 30vw;
+    }
+    .skill {
+      width: 25vw;
+      margin: 1em;
+      height: 17vh;
+    }
+    .icon_skill{
+        margin: 0 0  0 .6em;
+    }
+    .contact_detail {
+      font-size: 0.6em;
+    }
+    .social {
+      width: 4.5vw;
+    }
 }
